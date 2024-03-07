@@ -5,12 +5,12 @@ plugins {
 
 android {
     namespace 'com.testcloud.myapplication'
-    compileSdk 34
+    compileSdkVersion compileSdkVersion2
 
     defaultConfig {
         applicationId "com.testcloud.myapplication"
         minSdk 21
-        targetSdk 34
+        targetSdkVersion defaultTargetSdkVersion
         versionCode 1
         versionName "1.0"
 
